@@ -15,7 +15,8 @@ border: 5px solid white;
 border-radius: 50%;}
 
 
-.snp{font-family: Protest Guerrilla;}
+.snp{font-family: Protest Guerrilla;
+color: #ffffff;}
 
 
 
@@ -42,3 +43,20 @@ border-radius: 50%;}
 
 .flex-b{flex-basis: 50%;}
 
+
+.btn-clr{background-color: #ed1c24;
+color: #ffffff;}
+
+.font{font-family: 'Times New Roman', Times, serif;}
+
+
+.flex-b{flex-basis: 50%;}
+
+.red-clr{color: #ED1C24;}
+
+
+.card-img{width: 350px;
+height: 250px;}
+
+
+.flex-b2{flex-basis: 30%;}
