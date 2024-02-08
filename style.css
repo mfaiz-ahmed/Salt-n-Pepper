@@ -79,3 +79,9 @@ height: 250px;}
 
 
 .pointer{cursor: pointer;}
+
+
+.bg-img{background-image: url(./Assets/bg-logo.webp);
+background-position: left;
+background-repeat: no-repeat;}
+
