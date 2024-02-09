@@ -82,4 +82,17 @@ height: 250px;}
 
 .flex-25{flex-basis: 25%;}
 
+
+.icon{ background-color: #ED1C24;
+color: #ffffff;
+padding: 10px;
+width: 40px;
+height: 40px;
+border: 1px solid #ED1C24;
+border-radius: 50%;}
+
+.margin-l{margin-left: 50px;}
+
+.margin-r{margin-right: 50px;}
+
         
