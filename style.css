@@ -95,4 +95,9 @@ border-radius: 50%;}
 
 .margin-r{margin-right: 50px;}
 
+
+.bg-img{background-image: url(./Assets/bg-logo.webp);
+background-repeat: no-repeat;
+margin-top: 50px;}
+
         
