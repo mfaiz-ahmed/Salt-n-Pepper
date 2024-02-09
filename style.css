@@ -80,8 +80,6 @@ height: 250px;}
 
 .pointer{cursor: pointer;}
 
+.flex-25{flex-basis: 25%;}
 
-.bg-img{background-image: url(./Assets/bg-logo.webp);
-background-position: left;
-background-repeat: no-repeat;}
-
+        
