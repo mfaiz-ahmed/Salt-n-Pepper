@@ -120,6 +120,57 @@ height:100%;}
 .box{width: 100%;
 height: 100%;}
 
-.box img{transition: transform 0.5s;}
+.box img{width: 100%;
+    transition: transform 0.5s;}
 
 .box:hover img {transform: scale(1.1);}
+
+
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ED1C24;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ED1C24;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ED1C24;
+}
+
+
+.star-margin{margin-left: 300px;}
+
+
+
+
+.input-box{width: 600px;
+height: 50px;
+border-radius: 5px;}
+
+
