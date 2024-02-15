@@ -14,6 +14,9 @@ color: #dc3545;
 border: 5px solid white;
 border-radius: 50%;}
 
+nav{max-width: 1500px;
+margin: 0 auto;}
+
 
 .snp{font-family: Protest Guerrilla;}
 
@@ -174,3 +177,5 @@ height: 50px;
 border-radius: 5px;}
 
 
+footer{max-width: 1500px;
+margin: 0 auto;}
