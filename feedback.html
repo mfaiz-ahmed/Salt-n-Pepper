@@ -15,18 +15,23 @@
 <body class="bg-black text-light">
     <header>
         <!-- navbar started -->
-        <div class="d-flex gap-4 flex-wrap">
-            <img class="logo mt-3 container" src="./Assets/logo.webp" alt="Logo">
-            <a class="navbar text-light text-decoration-none mt-3" href="./index.html">Home</a>
-            <a class="navbar text-light text-decoration-none mt-3" href="./about.html">About Us</a>
-            <a class="navbar text-light text-decoration-none mt-3" href="./publications.html">Publlications</a>
-            <a class="navbar text-light text-decoration-none mt-3" href="./feedback.html">Feedback</a>
-            <button type="button" class="btn btn-outline-light mt-4 ms-4 rounded-pill btn"><a class="text-white text-decoration-none" href="./franchise.html">Get a Franchise</a></button>
-            <button type="button" class="btn container btn-clr mt-4 ms-5 rounded-pill btn">Order Online <i class='fas fa-arrow-circle-right' style='font-size:24px'></i>
-            </button>
-        </div>
+        <nav class="d-flex justify-content-around align-items-center">
+          <div>
+            <img class="logo mt-3" src="./Assets/logo.webp" alt="Logo">
+          </div>
+          <div>
+            <ul class="d-flex gap-4 align-items-center mt-3">
+              <a class="text-decoration-none text-white" href="./index.html"><li>Home</li></a>
+              <a class="text-decoration-none text-white" href="./about.html"><li>About Us</li></a>
+              <a class="text-decoration-none text-white" href="./publications.html"><li>Publications</li></a>
+              <a class="text-decoration-none text-white" href="./feedback.html"><li>Feedback</li></a>
+              <a href="./franchise.html"><button class="btn wht-btn ms-3 rounded-pill"> Get a Franchise</button></a>
+              <button class="btn-clr me-5  btn rounded-pill">Order Online &nbsp;<i class="fa-solid fa-circle-arrow-right fs-3"></i></button>
+            </ul>
+          </div>
+        </nav>
         <!-- navbar ended -->
-    </header> 
+      </header>
 <br /><br /><br />
 <main class="container star-margin">
     <h1 class="font text-center">Rate Your Experience</h1>

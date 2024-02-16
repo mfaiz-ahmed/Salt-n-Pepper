@@ -1,12 +1,24 @@
-.logo{width: 150px;
-margin-left: 50px;
-margin-right: 300px;}
+.logo{width: 165px;}
 
 
 
 .btn{width: 174px;
 height: 50px;}
 
+
+li{list-style: none;}
+
+
+li:hover{color: #ED1C24;}
+
+
+.wht-btn{border: 1px solid white;
+color: white;}
+
+.wht-btn:hover{border: 1px solid #ED1C24;
+color: #ED1C24;}
+
+nav{max-width: 1500px;}
 
 
 .arrow{background-color: white;
@@ -48,6 +60,8 @@ border-radius: 50%;}
 
 .btn-clr{background-color: #ed1c24;
 color: #ffffff;}
+
+.btn-clr:hover{background-color: #943538;}
 
 .font{font-family: 'Times New Roman', Times, serif;}
 
@@ -179,3 +193,4 @@ border-radius: 5px;}
 
 footer{max-width: 1500px;
 margin: 0 auto;}
+

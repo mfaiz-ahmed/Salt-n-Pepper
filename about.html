@@ -15,18 +15,23 @@
 <body class="bg-black text-light">
     <header>
         <!-- navbar started -->
-        <div class="d-flex gap-4 flex-wrap">
-            <img class="logo mt-3 container" src="./Assets/logo.webp" alt="Logo">
-            <a class="navbar text-light text-decoration-none mt-3" href="./index.html">Home</a>
-            <a class="navbar text-light text-decoration-none mt-3" href="./about.html">About Us</a>
-            <a class="navbar text-light text-decoration-none mt-3" href="./publications.html">Publlications</a>
-            <a class="navbar text-light text-decoration-none mt-3" href="./feedback.html">Feedback</a>
-            <button type="button" class="btn btn-outline-light mt-4 ms-4 rounded-pill btn"><a class="text-white text-decoration-none" href="./franchise.html">Get a Franchise</a></button>
-            <button type="button" class="btn container btn-clr mt-4 ms-5 rounded-pill btn">Order Online <i class='fas fa-arrow-circle-right' style='font-size:24px'></i>
-            </button>
-        </div>
+        <nav class="d-flex justify-content-around align-items-center">
+          <div>
+            <img class="logo mt-3" src="./Assets/logo.webp" alt="Logo">
+          </div>
+          <div>
+            <ul class="d-flex gap-4 align-items-center mt-3">
+              <a class="text-decoration-none text-white" href="./index.html"><li>Home</li></a>
+              <a class="text-decoration-none text-white" href="./about.html"><li>About Us</li></a>
+              <a class="text-decoration-none text-white" href="./publications.html"><li>Publications</li></a>
+              <a class="text-decoration-none text-white" href="./feedback.html"><li>Feedback</li></a>
+              <a href="./franchise.html"><button class="btn wht-btn ms-3 rounded-pill"> Get a Franchise</button></a>
+              <button class="btn-clr me-5  btn rounded-pill">Order Online &nbsp;<i class="fa-solid fa-circle-arrow-right fs-3"></i></button>
+            </ul>
+          </div>
+        </nav>
         <!-- navbar ended -->
-    </header>
+      </header>
     <br /><br /><br /><br />
     <main class="container">
         <!-- intro started  -->
@@ -181,16 +186,16 @@
     <footer class="bg-color">
         <!-- footer started  -->
         <div class="d-flex">
-         <div class="flex-25 bg-img">
+         <div class="flex-25 ms-5 bg-img">
           <img class=" logo mt-3 " src="./Assets/logo.webp" alt="Logo">
           <br /><br />
-          <p class="ms-5 txt-color">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
-          <a class="txt-color text-decoration-none ms-5" href="./terms.html">Terms & Conditions</a>
+          <p class="txt-color">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+          <a class="txt-color text-decoration-none" href="./terms.html">Terms & Conditions</a>
           <a class="txt-color text-decoration-none ms-3" href="./privacy.html">Privacy Policy</a>
         </div>
         <div class="flex-25 margin-l">
-          <p class="font mt-5 ">Site Links</p>
-          <a class="d-block text-decoration-none txt-color" href="./index.html">Home</a>
+          <p class="font mt-5">Site Links</p>
+          <a class="d-block text-decoration-none txt-color hover" href="./index.html">Home</a>
           <br />
           <a class="d-block text-decoration-none txt-color" href="./about.html">About Us</a>
           <br />
@@ -221,10 +226,10 @@
       <br />
       <hr />
       <p class="container text-white-50"> © 2023 Salt'n Pepper Restaurant.</p>
+      <p class="text-white-50 fs-4 text-end">PROJECT BY FAIZ AHMED</p>
       <br />  
       <!-- footer ended -->
-    </footer>
-      
+      </footer>
       
       
       
